@@ -4,7 +4,7 @@ const { abi, evm } = require("./compile");
 
 const provider = new HDWalletProvider(
     "write here your 12 word mnemonic",
-    "https://rinkeby.infura.io/v3/989fd50fdbe843248288caaf4bab85d8"
+    "https://rinkeby.infura.io/v3/unique_conn_id"
 );
 
 const web3 = new Web3(provider);
